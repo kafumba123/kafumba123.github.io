@@ -3,31 +3,49 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Introduction - Sanoe Kafumba</title>
+<title>Sanoe Kafumba's Serene Swan — WEB115 — Introduction</title>
+<link rel="stylesheet" href="styles/styles.css">
+<script src="https://lint.page/kit/880bd5.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
-<h1>WEB115 - Introduction</h1>
+<h1>Sanoe Kafumba's Serene Swan — WEB115</h1>
 <nav>
 <a href="index.html">Home</a> |
-<a href="introduction.html">Introduction</a>
+<a href="introduction.html">Introduction</a> |
+<a href="contract.html">Contract</a>
 </nav>
 </header>
 
 <main>
-<section>
-<h2>Sanoe Kafumba</h2>
-<p><strong>Date:</strong> 01/15/2026</p>
-<p><strong>Initials:</strong> KS</p>
-<p><em>I understand that the information I put on here is public.</em></p>
-</section>
+<h2>Introduction</h2>
 
-<section>
-<h3>Photo</h3>
+<!-- Unordered list for personal profile (required by assignment) -->
+<ul>
+<li><strong>Name:</strong> Sanoe Kafumba</li>
+<li><strong>Date:</strong> 01/15/2026</li>
+<li><strong>Initials:</strong> KS</li>
+<li><strong>Understanding:</strong> I understand that the information I put on here is public.</li>
+
+<!-- Photo section -->
+<li>
+<strong>Photo:</strong><br>
 <p>This photo was taken at my uncle's house during a family visit.</p>
-<p><em>[Photo placeholder - add your image here]</em></p>
-</section>
+<!-- You'll add your photo here later -->
+<img src="images/sanoe-profile.jpg" alt="Photo of Sanoe Kafumba" width="250">
+</li>
 
+<!-- Nested ordered list for current courses (required by assignment) -->
+<li>
+<strong>Current Courses:</strong>
+<ol>
+<li>CTS240-N850: Project Management (Required for AAS degree)</li>
+<li>WEB115-N850: Web Markup and Scripting (Required for AAS degree)</li>
+</ol>
+</li>
+</ul>
+
+<!-- Your original content (keeping it organized) -->
 <section>
 <h3>Welcome Message</h3>
 <p>Hello everyone, I am looking forward to this semester! With this wonderful group of people.</p>
@@ -59,15 +77,6 @@ I am the youngest of three - one brother and one sister.</p>
 </section>
 
 <section>
-<h3>Courses I'm Taking & Why</h3>
-<ul>
-<li><strong>CTS240-N850: Project Management</strong> - This is a required course for my AAS degree.</li>
-<li><strong>WEB115-N850: Web Markup and Scripting</strong> - This is a required course for my AAS degree.
-This course will help me learn about internet programming using JavaScript.</li>
-</ul>
-</section>
-
-<section>
 <h3>Favorite Quote</h3>
 <blockquote>
 "The greatest glory in living lies not in never falling, but in rising every time we fall."
@@ -82,8 +91,30 @@ This course will help me learn about internet programming using JavaScript.</li>
 </main>
 
 <footer>
-<p>© 2026 Sanoe Kafumba | WEB115 Course</p>
-<p><a href="index.html">Back to Course Home</a></p>
+<!-- External account links -->
+<nav>
+<a href="https://github.com/kafumba123" target="_blank" rel="noopener noreferrer">GitHub</a> |
+<a href="https://kafumba123.github.io" target="_blank" rel="noopener noreferrer">GitHub.io</a> |
+<a href="https://www.freecodecamp.org/fcc..." target="_blank" rel="noopener noreferrer">freeCodeCamp</a> |
+<a href="https://www.codecademy.com/profiles/..." target="_blank" rel="noopener noreferrer">Codecademy</a> |
+<a href="https://jsfiddle.net/user/..." target="_blank" rel="noopener noreferrer">JSFiddle</a> |
+<a href="https://www.linkedin.com/in/..." target="_blank" rel="noopener noreferrer">LinkedIn</a>
+</nav>
+
+<!-- Validation links -->
+<p>
+<a href="#" id="validation_link_html">Validate HTML</a> |
+<a href="#" id="validation_link_css">Validate CSS</a>
+</p>
+
+<!-- Attribution line (required) -->
+<p>Page built by Sanoe Kafumba</p>
+
+<!-- Script for dynamic validation links -->
+<script>
+document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href + "&profile=css3svg");
+</script>
 </footer>
 </body>
 </html>
